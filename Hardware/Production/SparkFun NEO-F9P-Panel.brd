@@ -15661,9 +15661,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="13.335" y1="11.049" x2="12.7" y2="11.684" width="0.508" layer="1"/>
 <wire x1="9.39" y1="38.1" x2="9.39" y2="33.3951875" width="0.508" layer="1"/>
 <wire x1="38.8493" y1="17.145" x2="38.8493" y2="14.2113" width="0.508" layer="16"/>
-<wire x1="38.8493" y1="14.2113" x2="38.608" y2="13.97" width="0.508" layer="16"/>
-<wire x1="38.608" y1="13.97" x2="38.227" y2="13.97" width="0.508" layer="16"/>
-<via x="38.227" y="13.97" extent="1-16" drill="0.3048"/>
 <wire x1="38.226996875" y1="13.97" x2="34.036" y2="13.97" width="0.508" layer="1"/>
 <contactref element="J6" pad="3"/>
 <contactref element="D3" pad="A"/>
@@ -15699,7 +15696,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="22.098" y="29.21" extent="1-16" drill="0.3"/>
 <wire x1="22.098" y1="29.21" x2="20.32" y2="29.21" width="0.508" layer="16"/>
 <wire x1="36.9443" y1="30.48" x2="26.67" y2="30.48" width="0.508" layer="16"/>
-<wire x1="38.226996875" y1="13.97" x2="38.227" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="38.8493" y1="14.2113" x2="38.608" y2="13.97" width="0.508" layer="16"/>
+<wire x1="38.608" y1="13.97" x2="38.226996875" y2="13.97" width="0.508" layer="16"/>
+<via x="38.226996875" y="13.97" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="GND">
 <contactref element="J2" pad="1"/>
@@ -16749,9 +16748,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="59.563" y1="11.049" x2="58.928" y2="11.684" width="0.508" layer="1"/>
 <wire x1="55.618" y1="38.1" x2="55.618" y2="33.3951875" width="0.508" layer="1"/>
 <wire x1="85.0773" y1="17.145" x2="85.0773" y2="14.2113" width="0.508" layer="16"/>
-<wire x1="85.0773" y1="14.2113" x2="84.836" y2="13.97" width="0.508" layer="16"/>
-<wire x1="84.836" y1="13.97" x2="84.455" y2="13.97" width="0.508" layer="16"/>
-<via x="84.455" y="13.97" extent="1-16" drill="0.3048"/>
 <wire x1="84.454996875" y1="13.97" x2="80.264" y2="13.97" width="0.508" layer="1"/>
 <contactref element="J14" pad="3"/>
 <contactref element="D11" pad="A"/>
@@ -16787,7 +16783,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="68.326" y="29.21" extent="1-16" drill="0.3"/>
 <wire x1="68.326" y1="29.21" x2="66.548" y2="29.21" width="0.508" layer="16"/>
 <wire x1="83.1723" y1="30.48" x2="72.898" y2="30.48" width="0.508" layer="16"/>
-<wire x1="84.454996875" y1="13.97" x2="84.455" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="85.0773" y1="14.2113" x2="84.836" y2="13.97" width="0.508" layer="16"/>
+<wire x1="84.836" y1="13.97" x2="84.454996875" y2="13.97" width="0.508" layer="16"/>
+<via x="84.454996875" y="13.97" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="GND1">
 <contactref element="J8" pad="1"/>
@@ -17837,9 +17835,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="105.791" y1="11.049" x2="105.156" y2="11.684" width="0.508" layer="1"/>
 <wire x1="101.846" y1="38.1" x2="101.846" y2="33.3951875" width="0.508" layer="1"/>
 <wire x1="131.3053" y1="17.145" x2="131.3053" y2="14.2113" width="0.508" layer="16"/>
-<wire x1="131.3053" y1="14.2113" x2="131.064" y2="13.97" width="0.508" layer="16"/>
-<wire x1="131.064" y1="13.97" x2="130.683" y2="13.97" width="0.508" layer="16"/>
-<via x="130.683" y="13.97" extent="1-16" drill="0.3048"/>
 <wire x1="130.682996875" y1="13.97" x2="126.492" y2="13.97" width="0.508" layer="1"/>
 <contactref element="J21" pad="3"/>
 <contactref element="D17" pad="A"/>
@@ -17875,7 +17870,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="114.554" y="29.21" extent="1-16" drill="0.3"/>
 <wire x1="114.554" y1="29.21" x2="112.776" y2="29.21" width="0.508" layer="16"/>
 <wire x1="129.4003" y1="30.48" x2="119.126" y2="30.48" width="0.508" layer="16"/>
-<wire x1="130.682996875" y1="13.97" x2="130.683" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="131.3053" y1="14.2113" x2="131.064" y2="13.97" width="0.508" layer="16"/>
+<wire x1="131.064" y1="13.97" x2="130.682996875" y2="13.97" width="0.508" layer="16"/>
+<via x="130.682996875" y="13.97" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="GND2">
 <contactref element="J15" pad="1"/>
@@ -18925,9 +18922,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="13.335" y1="54.737" x2="12.7" y2="55.372" width="0.508" layer="1"/>
 <wire x1="9.39" y1="81.788" x2="9.39" y2="77.0831875" width="0.508" layer="1"/>
 <wire x1="38.8493" y1="60.833" x2="38.8493" y2="57.8993" width="0.508" layer="16"/>
-<wire x1="38.8493" y1="57.8993" x2="38.608" y2="57.658" width="0.508" layer="16"/>
-<wire x1="38.608" y1="57.658" x2="38.227" y2="57.658" width="0.508" layer="16"/>
-<via x="38.227" y="57.658" extent="1-16" drill="0.3048"/>
 <wire x1="38.226996875" y1="57.658" x2="34.036" y2="57.658" width="0.508" layer="1"/>
 <contactref element="J28" pad="3"/>
 <contactref element="D23" pad="A"/>
@@ -18963,7 +18957,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="22.098" y="72.898" extent="1-16" drill="0.3"/>
 <wire x1="22.098" y1="72.898" x2="20.32" y2="72.898" width="0.508" layer="16"/>
 <wire x1="36.9443" y1="74.168" x2="26.67" y2="74.168" width="0.508" layer="16"/>
-<wire x1="38.226996875" y1="57.658" x2="38.227" y2="57.658" width="0" layer="19" extent="1-1"/>
+<wire x1="38.8493" y1="57.8993" x2="38.608" y2="57.658" width="0.508" layer="16"/>
+<wire x1="38.608" y1="57.658" x2="38.226996875" y2="57.658" width="0.508" layer="16"/>
+<via x="38.226996875" y="57.658" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="GND3">
 <contactref element="J22" pad="1"/>
@@ -20013,9 +20009,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="59.563" y1="54.737" x2="58.928" y2="55.372" width="0.508" layer="1"/>
 <wire x1="55.618" y1="81.788" x2="55.618" y2="77.0831875" width="0.508" layer="1"/>
 <wire x1="85.0773" y1="60.833" x2="85.0773" y2="57.8993" width="0.508" layer="16"/>
-<wire x1="85.0773" y1="57.8993" x2="84.836" y2="57.658" width="0.508" layer="16"/>
-<wire x1="84.836" y1="57.658" x2="84.455" y2="57.658" width="0.508" layer="16"/>
-<via x="84.455" y="57.658" extent="1-16" drill="0.3048"/>
 <wire x1="84.454996875" y1="57.658" x2="80.264" y2="57.658" width="0.508" layer="1"/>
 <contactref element="J35" pad="3"/>
 <contactref element="D29" pad="A"/>
@@ -20051,7 +20044,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="68.326" y="72.898" extent="1-16" drill="0.3"/>
 <wire x1="68.326" y1="72.898" x2="66.548" y2="72.898" width="0.508" layer="16"/>
 <wire x1="83.1723" y1="74.168" x2="72.898" y2="74.168" width="0.508" layer="16"/>
-<wire x1="84.454996875" y1="57.658" x2="84.455" y2="57.658" width="0" layer="19" extent="1-1"/>
+<wire x1="85.0773" y1="57.8993" x2="84.836" y2="57.658" width="0.508" layer="16"/>
+<wire x1="84.836" y1="57.658" x2="84.454996875" y2="57.658" width="0.508" layer="16"/>
+<via x="84.454996875" y="57.658" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="GND4">
 <contactref element="J29" pad="1"/>
@@ -21101,9 +21096,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="105.791" y1="54.737" x2="105.156" y2="55.372" width="0.508" layer="1"/>
 <wire x1="101.846" y1="81.788" x2="101.846" y2="77.0831875" width="0.508" layer="1"/>
 <wire x1="131.3053" y1="60.833" x2="131.3053" y2="57.8993" width="0.508" layer="16"/>
-<wire x1="131.3053" y1="57.8993" x2="131.064" y2="57.658" width="0.508" layer="16"/>
-<wire x1="131.064" y1="57.658" x2="130.683" y2="57.658" width="0.508" layer="16"/>
-<via x="130.683" y="57.658" extent="1-16" drill="0.3048"/>
 <wire x1="130.682996875" y1="57.658" x2="126.492" y2="57.658" width="0.508" layer="1"/>
 <contactref element="J42" pad="3"/>
 <contactref element="D35" pad="A"/>
@@ -21139,7 +21131,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="114.554" y="72.898" extent="1-16" drill="0.3"/>
 <wire x1="114.554" y1="72.898" x2="112.776" y2="72.898" width="0.508" layer="16"/>
 <wire x1="129.4003" y1="74.168" x2="119.126" y2="74.168" width="0.508" layer="16"/>
-<wire x1="130.682996875" y1="57.658" x2="130.683" y2="57.658" width="0" layer="19" extent="1-1"/>
+<wire x1="131.3053" y1="57.8993" x2="131.064" y2="57.658" width="0.508" layer="16"/>
+<wire x1="131.064" y1="57.658" x2="130.682996875" y2="57.658" width="0.508" layer="16"/>
+<via x="130.682996875" y="57.658" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="GND5">
 <contactref element="J36" pad="1"/>
