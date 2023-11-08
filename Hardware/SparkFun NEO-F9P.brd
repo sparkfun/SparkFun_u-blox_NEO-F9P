@@ -201,7 +201,7 @@
 <wire x1="43.18" y1="43.18" x2="43.18" y2="29.718" width="0.1524" layer="20"/>
 <wire x1="43.18" y1="21.082" x2="43.18" y2="0" width="0.1524" layer="20"/>
 <wire x1="43.18" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
-<text x="41.91" y="10.16" size="1.27" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v10</text>
+<text x="41.91" y="10.16" size="1.27" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v11</text>
 <text x="33.02" y="-7.62" size="1.778" layer="47" font="vector" ratio="15" align="bottom-center">Measurements in inches</text>
 <dimension x1="0" y1="0" x2="0" y2="43.18" x3="-10.16" y3="21.59" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="43.18" x2="43.18" y2="40.64" x3="21.59" y3="49.53" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
