@@ -1,9 +1,9 @@
-SparkFun GNSS Correction Data Receiver - NEO-D9S (Qwiic)
+SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic)
 ========================================
 
-[![SparkFun GNSS Correction Data Receiver - NEO-D9S (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/9/0/2/8/19390-NEO-D9S_Breakout-_01.jpg)](https://www.sparkfun.com/products/19390)
+[![SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic)]()](https://www.sparkfun.com/products/23288)
 
-[*SparkFun GNSS Correction Data Receiver - NEO-D9S (Qwiic) (GPS-19390)*](https://www.sparkfun.com/products/19390)
+[*SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic) (GPS-23288)*](https://www.sparkfun.com/products/23288)
 
 The SparkFun NEO-D9S GNSS Correction Data Receiver is a satellite data receiver for L-Band correction broadcast. It can be configured for use with a variety of correction services including u-blox's PointPerfect satellite GNSS augmentation service, which provides homogenous coverage in the contiguous USA and Europe. With a clear view of the sky, especially a clear view to the South, it decodes the satellite transmission and outputs a correction stream, enabling a multi-band high-precision GNSS receiver (such as the u-blox ZED-F9P) to reach accuracies down to centimeter-level positioning without needing a separate RTK or NTRIP correction!
 
@@ -19,11 +19,11 @@ Documentation
 * **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino library for the NEO-D9S.
   * **[NEO-D9S Code Example](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library/blob/main/examples/Example30_NEO-D9S/Example30_NEO-D9S.ino)**
   * **[NEO-D9S + ZED-F9P Code Example](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library/tree/main/examples/ZED-F9P/Example19_LBand_Corrections_with_NEO-D9S)**
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/2352)** - Basic hookup guide for the NEO-D9S breakout board.
+* **[Hookup Guide]** - Basic hookup guide for the NEO-F9P breakout board.
 
 Product Versions
 ----------------
-* [GPS-19390](https://www.sparkfun.com/products/19390) - Initial release
+* [GPS-23288](https://www.sparkfun.com/products/23288) - Initial release
 
 Version History
 ---------------
