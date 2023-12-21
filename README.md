@@ -1,13 +1,21 @@
 SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic)
 ========================================
 
-[![SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic)]()](https://www.sparkfun.com/products/23288)
+[![SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/4/8/5/GPS-23288-L1-L5-Breakout-NEO-F9P-Feature.jpg)](https://www.sparkfun.com/products/23288)
 
 [*SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic) (GPS-23288)*](https://www.sparkfun.com/products/23288)
 
-The SparkFun NEO-D9S GNSS Correction Data Receiver is a satellite data receiver for L-Band correction broadcast. It can be configured for use with a variety of correction services including u-blox's PointPerfect satellite GNSS augmentation service, which provides homogenous coverage in the contiguous USA and Europe. With a clear view of the sky, especially a clear view to the South, it decodes the satellite transmission and outputs a correction stream, enabling a multi-band high-precision GNSS receiver (such as the u-blox ZED-F9P) to reach accuracies down to centimeter-level positioning without needing a separate RTK or NTRIP correction!
+The SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic) is a high-precision GNSS board with equally impressive configuration options. The NEO-F9P is an upgrade to the NEO-M8P and utilizes the L1/L5 bands instead of the L1/L2 bands. Utilizing the L5 band, the NEO-F9P delivers improved performance under challenging urban environments because the L5 signals fall within the protected ARNS (aeronautical radio navigation service) frequency band. This band is less subject to RF interference. 
 
-The board is equipped with a USB-C connector so you can hook the board to your laptop and configure the device using u-blox u-center if you want to. We've also equipped the breakout board with two Qwiic connectors, so you can connect it quickly and easily to your favorite development board and control it using our sophisticated u-blox GNSS Arduino Library. An SMA connector is included for a secure connection to an L-Band antenna. Power, I<sup>2</sup>C, UART1, UART2, and SPI are broken out to 0.1" spaced PTH pins. By connecting the NEO-D9S breakout to one of the ZED-F9P's communication ports, you will be able to know where your (or any object's) X, Y, and Z location is to better than an inch, without needing a separate correction source!
+The NEO-F9P module is a powerful 184-channel u-blox F9 engine GNSS receiver, meaning it can receive signals from the GPS, GLONASS, Galileo, and BeiDou constellations with 10mm, three-dimensional accuracy! That's right; such accuracy can be achieved with an RTK navigation solution when used with a correction source. With this board, you will be able to know where your (or any object's) X, Y, and Z location is within roughly the width of your fingernail! The module supports the concurrent reception of four GNSS systems. This module features a survey-in mode, allowing the module to become a base station and produce RTCM 3.x correction data. 
+
+We've included a rechargeable backup battery to keep the latest module configuration and satellite data available for up to two weeks. This battery helps 'warm-start' the module, decreasing the time-to-first-fix dramatically from a cold start of ~27s down to a hot start of ~3s. The battery will maintain RTC and GNSS orbit data without being connected to power for plenty of time. We have included an SMA connector for a secure connection.
+
+The GNSS-RTK even has five communications ports, which are all active simultaneously: USB-C (which enumerates as a COM port), UART1 (with 3.3V TTL), UART2 for RTCM reception (with 3.3V TTL), I<sup>2</sup>C, and SPI. Utilizing our handy Qwiic system, no soldering is required to connect it to the rest of your system. However, we still have broken out 0.1"-spaced pins if you prefer a breadboard. 
+
+u-blox-based GPS products are configurable using the popular but dense Windows program u-center. Many different functions can be configured on the NEO-F9P: baud rates, update rates, geofencing, spoofing detection, external interrupts, SBAS/D-GNSS, increasing the high precision RTK solution to 20Hz, etc. All of this can be done within the SparkFun Arduino Library!
+
+Our extensive [Arduino Library for u-blox modules](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3) makes reading and controlling the GNSS-RTK over our [Qwiic Connect System](https://www.sparkfun.com/qwiic) easy. Leave NMEA behind! Start using a much lighter-weight binary interface and give your microcontroller a break. The SparkFun Arduino library shows how to read latitude, longitude, even heading, and speed over I<sup>2</sup>C without constant serial polling.
 
 Repository Contents
 -------------------
@@ -16,10 +24,8 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino library for the NEO-D9S.
-  * **[NEO-D9S Code Example](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library/blob/main/examples/Example30_NEO-D9S/Example30_NEO-D9S.ino)**
-  * **[NEO-D9S + ZED-F9P Code Example](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library/tree/main/examples/ZED-F9P/Example19_LBand_Corrections_with_NEO-D9S)**
-* **[Hookup Guide]** - Basic hookup guide for the NEO-F9P breakout board.
+* **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3)** - Arduino library for the NEO-F9P.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_u-blox_NEO-F9P/)** - Basic hookup guide for the NEO-F9P breakout board.
 
 Product Versions
 ----------------
@@ -27,7 +33,7 @@ Product Versions
 
 Version History
 ---------------
-* v1.0 - Initial release
+* v1.1 - Initial release
 
 License Information
 -------------------
