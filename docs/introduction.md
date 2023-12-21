@@ -137,12 +137,9 @@ To follow along with this tutorial, you will need the following materials. You m
 
 ### GNSS Accessories &nbsp;_(Optional)_
 
-Depending on your setup, you may need the following mounting hardware.  Note that the antenna ground plate is needed when using a multi-band antenna that do not have a ground plane as recommended in the required materials. The mounting hardware is typically used with the SPK6618H and TOP106 multi-band antennas. The reinforced interface cable between the SMA to TNC also uSPK6618H and TOP106 multi-band antennas
+Depending on your setup, you may need the following mounting hardware. As included earlier in the required materials, the antenna ground plate below is needed when using multi-band antennas that do not have a good ground plane.
 
 * [GPS Antenna Ground Plate [GPS-17519]](https://www.sparkfun.com/products/17519)
-* [GNSS Magnetic Mount [PRT-21257]](https://www.sparkfun.com/products/21257)
-* [GNSS Antenna Mounting Hardware Kit [KIT-22197]](https://www.sparkfun.com/products/22197)
-* [Reinforced Interface Cable - SMA Male to TNC Male (10m) [CAB-21740]](https://www.sparkfun.com/products/21740)
 
 <div class="grid cards hide col-4" markdown>
 
@@ -158,6 +155,33 @@ Depending on your setup, you may need the following mounting hardware.  Note tha
       <b>GPS Antenna Ground Plate</b>
       <br />
       GPS-17519
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+</div>
+
+
+
+For users that decide to use the SPK6618H multi-band antenna as an alternative, users would not need to include the antenna ground plate. The mounting hardware listed below is also typically used with the SPK6618H multi-band antennas. The reinforced interface cable between the SMA to TNC also needed for the SPK6618H multi-band antennas.
+
+* [GNSS Magnetic Mount [PRT-21257]](https://www.sparkfun.com/products/21257)
+* [GNSS Antenna Mounting Hardware Kit [KIT-22197]](https://www.sparkfun.com/products/22197)
+* [Reinforced Interface Cable - SMA Male to TNC Male (10m) [CAB-21740]](https://www.sparkfun.com/products/21740)
+* [GNSS Multi-Band L1/L2/L5 Surveying Antenna - TNC (SPK6618H) [GPS-21801]](https://www.sparkfun.com/products/21801)
+
+<div class="grid cards hide col-4" markdown>
+
+-   <a href="https://www.sparkfun.com/products/21801">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com//assets/parts/2/1/5/9/7/SparkFun_GNSS_SPK6618H_Triband_Antenna_-_2.jpg" style="width:140px; height:140px; object-fit:contain;" alt="GNSS Multi-Band L1/L2/L5 Surveying Antenna - TNC (SPK6618H)">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/21801">
+      <b>GNSS Multi-Band L1/L2/L5 Surveying Antenna - TNC (SPK6618H)</b>
+      <br />
+      GPS-21801
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/21257">
