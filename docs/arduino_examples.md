@@ -4,7 +4,7 @@ Now that we have our library and board add-on installed, we can get start experi
 
 ### Example 1: Positional Accuracy
 
-As a quick test, we will be using the first example in the **ZED-F9P** folder (located in **File** **Examples** > **SparkFun u-blox GNSS Arduino Library** > **ZED-F9P** > **Example1_GetPositionAccuracy**).
+As a quick test, we will be using the first example in the **ZED-F9P** folder (located in **File** **Examples** > **SparkFun u-blox GNSS V3** > **ZED-F9P** > **Example1_GetPositionAccuracy**).
 
 If you have not already, select your Board (in this case the **SparkFun ESP32 IoT RedBoard**), and associated COM port. Upload the code to the board and set the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/all#arduino-serial-monitor-windows-mac-linux) to **115200** baud. Give the NEO-F9P a few minutes to get a satellite lock. The GPS coordinates and the accuracy will be output in the Serial Monitor.
 

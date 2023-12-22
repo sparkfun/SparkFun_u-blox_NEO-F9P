@@ -220,8 +220,8 @@ The antenna power pin (**ANT PWR**) is available for advanced users that want to
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_SMD_Component.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_SMD_Component.jpg" width="600px" height="600px" alt="Inject Power to ANT PWR pin"></a></td>
-    </tr>
+    <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_External_Antenna_Power.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_External_Antenna_Power.jpg" width="600px" height="600px" alt="Inject Power to ANT PWR pin"></a>
+    </td>
   </table>
 </div>
 
@@ -234,11 +234,11 @@ Follow the steps below to modify the board.
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_External_Antenna_Power.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_External_Antenna_Power.jpg" width="600px" height="600px" alt="Cut Trace"></a>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_Cut_Trace.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_Cut_Trace.jpg" width="600px" height="600px" alt="Cut Trace"></a>
       </td>
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_Cut_Trace.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_Cut_Trace.jpg" width="600px" height="600px" alt="Solder SMD Component"></a>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_SMD_Component.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_SMD_Component.jpg" width="600px" height="600px" alt="Solder SMD Component"></a>
       </td>
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_SMD_Component.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_SMD_Component.jpg" width="600px" height="600px" alt="Inject Power to ANT PWR pin"></a>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_External_Antenna_Power.jpg"><img src="../assets/img/GPS-23288-L1-L5-Breakout-NEO-F9P_External_Antenna_Power.jpg" width="600px" height="600px" alt="Inject Power to ANT PWR pin"></a>
       </td>
     </tr>
     <tr>
@@ -283,7 +283,7 @@ The board includes the following status LEDs as indicated in the image below.
 
 * **PWR** &mdash; Indicates when the NEO-F9P is powered.
 * **PPS** &mdash; Tied to the Pulse Per Second pin and acts as a visual indicator to the NEO-F9P's pulse per second signal.
-* **RTK** &mdash; Indicates the status of the RTK lock. The RTK LED will be illuminated constantly upon power up. Once RTCM data has been successfully received it will begin to blink. This is a good way to see if the NEO-F9P is getting RTCM from various sources. Once an RTK fix is obtained, the LED will turn off.
+* **RTK** &mdash; Indicates the status of the RTK lock. The RTK LED off upon power up. Once RTCM data has been successfully received it will begin to blink indicating an RTK float solution. This is a good way to see if the NEO-F9P is getting RTCM from various sources. Once an RTK fix is obtained, the LED will turn on.
 
 <div style="text-align: center;">
   <table>
@@ -322,7 +322,7 @@ If you flip the board over, you will notice a few jumper pads.
 
 ### Board Dimensions
 
-The board is 1.7" x 1.7" (50.8mm x 50.8mm). This is not including the SMA connector. There are 4x mounting holes by each corner of the board.
+The board is 1.7" x 1.7" (43.1mm x 43.1mm). This is not including the SMA connector. There are 4x mounting holes by each corner of the board.
 
 <div style="text-align: center;">
   <table>
