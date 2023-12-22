@@ -26,7 +26,7 @@ Documentation
 --------------
 
 * [**Installing an Arduino Library Guide**](https://learn.sparkfun.com/tutorials/installing-an-arduino-library) - Basic information on how to install an Arduino library.
-* **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino library for the NEO-F9P.
+* **[Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3/)** - Arduino library for the NEO-F9P.
 * **[Hookup Guide](http://docs.sparkfun.com/SparkFun_u-blox_NEO-F9P/)** - Basic hookup guide for the NEO-F9P breakout board.
 
 Product Versions
