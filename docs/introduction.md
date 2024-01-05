@@ -1,5 +1,3 @@
-
-
 The [SparkFun GNSS-RTK L1/L5 Breakout - NEO-F9P (Qwiic)](https://www.sparkfun.com/products/23288) is a high precision GNSS board with equally impressive configuration options. Utilizing both the L1 and L5 bands, the NEO-F9P delivers improved performance under challenging urban environments because the L5 signals fall within the protected ARNS (aeronautical radionavigation service) frequency band. This band is less subject to RF interference.
 
 <center>

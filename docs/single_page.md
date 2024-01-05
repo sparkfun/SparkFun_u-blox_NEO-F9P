@@ -17,6 +17,9 @@ icon: fontawesome/solid/scroll
 # Installing the Arduino Library
 --8<-- "./docs/arduino_library.md"
 
+# Enabling L5 Band and Overriding Health Status
+--8<-- "./docs/enable_l5_band_and_override_health_status.md"
+
 # Arduino Examples
 --8<-- "./docs/arduino_examples.md
 

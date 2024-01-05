@@ -240,6 +240,7 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Hookup: hardware_hookup.md
     - Installing the Arduino Library: arduino_library.md
+    - Enabling L5 Band and Overriding Health Status: enable_l5_band_and_override_health_status.md
     - Arduino Examples: arduino_examples.md
     - Troubleshooting: troubleshooting.md
   - Resources: resources.md
