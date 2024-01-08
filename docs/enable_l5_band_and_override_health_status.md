@@ -1,4 +1,4 @@
-By default, the L5 band is disabled on the NEO-F9P. At the time of writing the ZED-F9P Arduino Library, it did not include code to configure u-blox modules for the L5 band. To take advantage of the L5 band, you will need to:
+By default, the L5 band is disabled on the NEO-F9P. To take advantage of the L5 band, you will need to:
 
 * enable the L5 band
 * override the health status check
@@ -7,10 +7,36 @@ By default, the L5 band is disabled on the NEO-F9P. At the time of writing the Z
 
 
 
+### Configuring with the Arduino Library
+
+!!! arduino
+    Make sure that you are using the SparkFun u-blox GNSS Arduino Library **v3.1.1+** in order to be able to take advantage of the following functions.
+
+To do this using the Arduino Library, users can add the following three lines of code in the `setup()` function after connecting a Qwiic cable between an Arduino to the NEO-F9P:
+
+```c
+  if (myGNSS.begin() == false) //Connect to the u-blox module using Wire port
+  {
+    Serial.println(F("u-blox GNSS not detected at default I2C address. Please check wiring. Freezing."));
+    while (1);
+  }
+
+  myGNSS.setI2COutput(COM_TYPE_UBX); //Set the I2C port to output UBX only (turn off NMEA noise)
+  //myGNSS.saveConfiguration(); //Optional: Save the current settings to flash and BBR
+
+  //Add the following 3 lines below to enable L5 band and override health status check on the NEO-F9P
+  myGNSS.setVal8(UBLOX_CFG_SIGNAL_GPS_L5_ENA, 1); // Make sure the GPS L5 band is enabled (needed on the NEO-F9P)
+
+  myGNSS.setGPSL5HealthOverride(true); // Mark L5 signals as healthy - store in RAM and BBR
+
+  myGNSS.softwareResetGNSSOnly(); // Restart the GNSS to apply the L5 health override
+```
+
+
 
 ### Configuring with U-Center
 
-Users can enable the L5 band via U-Center v22.07. Connect a USB cable between the NEO-F9P breakout board and your computer. Then open the software, connect to the COM port that the board enumerated to, and head to **View** > **Generation 9 Configuration View**. Once open, select the check box for GPS's **L5**. Select the check box for **BBR**. When ready, hit the **Send Configuration** button.
+Users can also enable the L5 band via U-Center v22.07. Connect a USB cable between the NEO-F9P breakout board and your computer. Then open the software, connect to the COM port that the board enumerated to, and head to **View** > **Generation 9 Configuration View**. Once open, select the check box for GPS's **L5**. Select the check box for **BBR**. When ready, hit the **Send Configuration** button.
 
 <div style="text-align: center;">
   <table>
@@ -61,30 +87,3 @@ The "Satellite Level History" window should update and include the L5 bands if i
     </tr>
   </table>
 </div>
-
-
-
-### Configuring with the Arduino Library
-
-!!! arduino
-    Make sure that you are using the SparkFun u-blox GNSS Arduino Library **v3.1.1+** in order to be able to take advantage of the following functions.
-
-To do this using the Arduino Library, users can add the following three lines of code in the `setup()` function after connecting to the NEO-F9P:
-
-```c
-  if (myGNSS.begin() == false) //Connect to the u-blox module using Wire port
-  {
-    Serial.println(F("u-blox GNSS not detected at default I2C address. Please check wiring. Freezing."));
-    while (1);
-  }
-
-  myGNSS.setI2COutput(COM_TYPE_UBX); //Set the I2C port to output UBX only (turn off NMEA noise)
-  //myGNSS.saveConfiguration(); //Optional: Save the current settings to flash and BBR
-
-  //Add the following 3 lines below to enable L5 band and override health status check on the NEO-F9P
-  myGNSS.setVal8(UBLOX_CFG_SIGNAL_GPS_L5_ENA, 1); // Make sure the GPS L5 band is enabled (needed on the NEO-F9P)
-
-  myGNSS.setGPSL5HealthOverride(true); // Mark L5 signals as healthy - store in RAM and BBR
-
-  myGNSS.softwareResetGNSSOnly(); // Restart the GNSS to apply the L5 health override
-```
