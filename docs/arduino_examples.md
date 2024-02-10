@@ -1,4 +1,4 @@
-Now that we have our library and board add-on installed, we can get start experimenting with the breakout board. For the scope of this tutorial, we will highlight one of the examples to get started. From there we will be able to build our own custom code to integrate the development board into a project.
+Now that we have our library and board add-on installed, we can get started experimenting with the breakout board. For the scope of this tutorial, we will highlight two of the examples from the Arduino Library. From there we will be able to build our own custom code to integrate the breakout board into a project.
 
 
 
