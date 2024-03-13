@@ -76,7 +76,7 @@ B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 01 DF F5
 </div>
 
 !!! tip
-    To confirm that the above UBX messages were sent successfully, check the `UBX-ACK-ACK` messages after sending the message. For users that want to revert to the default behavior, make sure to check the **[GPS L5 Configuration: GNSS receiver handling of GPS L5 health status](http://127.0.0.1:8000/SparkFun_u-blox_NEO-F9P/assets/component_documentation/GPS-L5-configuration_AppNote_UBX-21038688.pdf)** application note on page 5 under *Table 2: UBX binary strings to revert the GPS L5 health status monitoring to default*.
+    To confirm that the above UBX messages were sent successfully, check the `UBX-ACK-ACK` messages after sending the message. For users that want to revert to the default behavior, make sure to check the **[GPS L5 Configuration: GNSS receiver handling of GPS L5 health status](../assets/component_documentation/GPS-L5-configuration_AppNote_UBX-21038688.pdf)** application note on page 5 under *Table 2: UBX binary strings to revert the GPS L5 health status monitoring to default*.
 
 The "Satellite Level History" window should update and include the L5 bands if it is available.
 
